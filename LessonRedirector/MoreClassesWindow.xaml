@@ -1,0 +1,33 @@
+﻿<Window x:Class="LessonRedirector.MoreClassesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LessonRedirector"
+        mc:Ignorable="d"
+        Title="" Height="482" Width="462" Background="Black" WindowStyle="None" WindowState="Normal" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" ShowInTaskbar="False" Loaded="OnLoaded">
+    <Grid>
+        <Label Content="Bir ders seçin" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" TextBlock.TextAlignment="Center" FontSize="20"/>
+        <Button Content="Türk Dili ve Edebiyatı" HorizontalAlignment="Center" Margin="0,0,0,300" VerticalAlignment="Center" FontSize="18" Width="442" Click="Literature"/>
+        <Button Content="Matematik" HorizontalAlignment="Center" Margin="0,0,226,230" VerticalAlignment="Center" FontSize="18" Width="216" Click="Maths"/>
+        <Button Content="Geometri" HorizontalAlignment="Center" Margin="226,0,0,230" VerticalAlignment="Center" FontSize="18" Width="216" Click="Geometry"/>
+        <Button Content="Fizik" HorizontalAlignment="Center" Margin="0,0,301,160" VerticalAlignment="Center" FontSize="18" Width="140" Click="Physics"/>
+        <Button Content="Kimya" HorizontalAlignment="Center" Margin="0,0,0,160" VerticalAlignment="Center" FontSize="18" Width="140" Click="Chemistry"/>
+        <Button Content="Biyoloji" HorizontalAlignment="Center" Margin="301,0,0,160" VerticalAlignment="Center" FontSize="18" Width="140" Click="Biology"/>
+        <Button Content="Tarih" HorizontalAlignment="Center" Margin="0,0,226,90" VerticalAlignment="Center" FontSize="18" Width="216" Click="History"/>
+        <Button Content="Coğrafya" HorizontalAlignment="Center" Margin="226,0,0,90" VerticalAlignment="Center" FontSize="18" Width="216" Click="Geography"/>
+        <Button Content="Din Kültürü ve Ahlak Bilgisi" HorizontalAlignment="Center" Margin="0,0,226,20" VerticalAlignment="Center" FontSize="18" Width="216" Click="Religion"/>
+        <Button Content="Felsefe" HorizontalAlignment="Center" Margin="226,0,0,20" VerticalAlignment="Center" FontSize="18" Width="216" Click="Philosophy"/>
+        <Button Content="İngilizce (Rasim İşbilen)" HorizontalAlignment="Center" Margin="0,50,226,0" VerticalAlignment="Center" FontSize="18" Width="216" Click="English"/>
+        <Button Content="İngilizce (Pınar Nerse)" HorizontalAlignment="Center" Margin="226,50,0,0" VerticalAlignment="Center" FontSize="18" Width="216" Click="EnglishPN"/>
+        <Button Content="Almanca" HorizontalAlignment="Center" Margin="0,120,0,0" VerticalAlignment="Center" FontSize="18" Width="442" Click="German"/>
+        <Button Content="Görsel Sanatlar" HorizontalAlignment="Center" Margin="0,190,226,0" VerticalAlignment="Center" FontSize="18" Width="216" Click="Arts"/>
+        <Button Content="Beden Eğitimi" HorizontalAlignment="Center" Margin="226,190,0,0" VerticalAlignment="Center" FontSize="18" Width="216" Click="PE"/>
+        <Button Content="Sınav" HorizontalAlignment="Center" Margin="0,260,226,0" VerticalAlignment="Center" FontSize="18" Width="216" Click="Exam"/>
+        <Button Content="Bilgisayar Bilimi" HorizontalAlignment="Center" Margin="226,260,0,0" VerticalAlignment="Center" FontSize="18" Width="216" Click="ComputerScience"/>
+        <Button Content="Eğer dersiniz burada bulunmuyorsa ya da etüt dersinin&#xD;&#xA;ne olduğunu görmek istiyorsanız, Online ders&#xD;&#xA;programını ziyaret etmek için buraya tıklayınız" HorizontalAlignment="Center" Margin="0,380,0,0" VerticalAlignment="Center" FontSize="18" Width="442" Click="Other" TextBlock.TextAlignment="Center"/>
+        <Button Content="Kapat" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="74" FontSize="18" Click="Shutdown"/>
+
+
+    </Grid>
+</Window>
